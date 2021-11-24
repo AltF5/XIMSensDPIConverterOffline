@@ -27,9 +27,9 @@ namespace WindowsFormsApp1
             //    12000 (Current DPI to keep) * 16.90 (Current Sense)   =   3000 (desired new DPI) * x [New Sensivity to find at this lower DPI]
             //    x = (12000 * 16.90) / 3000  =  4 * 16.90 = 67.60
 
-            int currentDPI = int.Parse(txt1CurrDPI.Text.Replace(",", ""));                  // Ex: 12,000
+            int currentDPI = (int)decimal.Parse(txt1CurrDPI.Text.Replace(",", ""));                  // Ex: 12,000
             decimal currentSens = decimal.Parse(txt1CurrSens.Text.Replace(",", ""));        // Ex: 16.90
-            int newDesiredDPI = int.Parse(txt1NewDPI.Text.Replace(",", ""));                // Ex: 3,000
+            int newDesiredDPI = (int)decimal.Parse(txt1NewDPI.Text.Replace(",", ""));                // Ex: 3,000
             decimal newSenseFound_ForNewDPI = (currentDPI * currentSens) / newDesiredDPI;
 
             newSenseFound_ForNewDPI = Math.Round(newSenseFound_ForNewDPI, 2);
@@ -75,9 +75,9 @@ namespace WindowsFormsApp1
 
 
 
-            int youCurrentDPI = int.Parse(txt2CurrDPI.Text.Replace(",", ""));       // Ex: 12,000 to keep
-            int theirDPI = int.Parse(txt2TheirDPI.Text.Replace(",", ""));           // Ex: 800
-            decimal theirSense = int.Parse(txt2TheirSens.Text.Replace(",", ""));    // Ex: 100
+            int youCurrentDPI = (int)decimal.Parse(txt2CurrDPI.Text.Replace(",", ""));       // Ex: 12,000 to keep
+            int theirDPI = (int)decimal.Parse(txt2TheirDPI.Text.Replace(",", ""));           // Ex: 800
+            decimal theirSense = decimal.Parse(txt2TheirSens.Text.Replace(",", ""));         // Ex: 100
 
 
             // Opposite as above. If your DPI is higher than theirs, then your sensitivity will be LOWER than theres
@@ -142,7 +142,7 @@ namespace WindowsFormsApp1
             // https://stackoverflow.com/questions/15473216/how-to-format-a-windows-forms-textbox-with-thousand-separator-and-decimal-separt
             try
             {
-                (sender as TextBox).Text = string.Format("{0:#,##0}", int.Parse((sender as TextBox).Text.Replace(",", "")));
+                (sender as TextBox).Text = string.Format("{0:#,##0}", (int)decimal.Parse((sender as TextBox).Text.Replace(",", "")));
             }
             catch (Exception ex)
             {
@@ -154,7 +154,7 @@ namespace WindowsFormsApp1
         {
             try
             {
-                (sender as TextBox).Text = string.Format("{0:#,##0}", int.Parse((sender as TextBox).Text.Replace(",", "")));
+                (sender as TextBox).Text = string.Format("{0:#,##0}", (int)decimal.Parse((sender as TextBox).Text.Replace(",", "")));
             }
             catch (Exception ex)
             {
@@ -166,7 +166,7 @@ namespace WindowsFormsApp1
         {
             try
             {
-                (sender as TextBox).Text = string.Format("{0:#,##0}", int.Parse((sender as TextBox).Text.Replace(",", "")));
+                (sender as TextBox).Text = string.Format("{0:#,##0}", (int)decimal.Parse((sender as TextBox).Text.Replace(",", "")));
             }
             catch (Exception ex)
             {
@@ -178,7 +178,7 @@ namespace WindowsFormsApp1
         {
             try
             {
-                (sender as TextBox).Text = string.Format("{0:#,##0}", int.Parse((sender as TextBox).Text.Replace(",", "")));
+                (sender as TextBox).Text = string.Format("{0:#,##0}", (int)decimal.Parse((sender as TextBox).Text.Replace(",", "")));
             }
             catch (Exception ex)
             {
