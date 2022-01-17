@@ -75,24 +75,24 @@ namespace WindowsFormsApp1
 
 
 
-            int youCurrentDPI = (int)decimal.Parse(txt2CurrDPI.Text.Replace(",", ""));       // Ex: 12,000 to keep
+            int yourCurrentDPI = (int)decimal.Parse(txt2CurrDPI.Text.Replace(",", ""));       // Ex: 12,000 to keep
             int theirDPI = (int)decimal.Parse(txt2TheirDPI.Text.Replace(",", ""));           // Ex: 800
             decimal theirSense = decimal.Parse(txt2TheirSens.Text.Replace(",", ""));         // Ex: 100
 
 
             // Opposite as above. If your DPI is higher than theirs, then your sensitivity will be LOWER than theres
             decimal feelRatio = 0;           // The feel factor (ex: 15 in the abvoe example)
-            bool directionIncreaseSense = youCurrentDPI < theirDPI;
+            bool directionIncreaseSense = yourCurrentDPI < theirDPI;
             string textIncreaseOrDecrease = directionIncreaseSense ? "INCREASE" : "DECREASE";
 
 
-            if (youCurrentDPI > theirDPI)                   // Always divide the highest
+            if (yourCurrentDPI > theirDPI)                   // Always divide the highest
             {
-                feelRatio = youCurrentDPI / theirDPI;
+                feelRatio = (decimal)yourCurrentDPI / (decimal)theirDPI;
             }
             else
             {
-                feelRatio = theirDPI / youCurrentDPI;
+                feelRatio = (decimal)theirDPI / (decimal)yourCurrentDPI;
             }
 
 
@@ -112,7 +112,7 @@ namespace WindowsFormsApp1
             // Info label:
             lbl2ResultInfo.Text = string.Format(
                 "For their sensitivity {0}, you must {1} their sensitivity given your\ncurrent DPI value ({2}) by their DPI:Sense \"feel-factor\" of: {3}x    = {4}",
-                theirSense, textIncreaseOrDecrease, youCurrentDPI, feelRatio, resultingSenseForYouWithYourDPI);
+                theirSense, textIncreaseOrDecrease, yourCurrentDPI, feelRatio, resultingSenseForYouWithYourDPI);
 
         }
 

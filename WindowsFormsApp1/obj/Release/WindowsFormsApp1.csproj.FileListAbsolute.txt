@@ -1,0 +1,18 @@
+C:\Code\VS .NET Projects (C#, C++)\XIM Sens DPI Converter\XIMSensDPIConverter\WindowsFormsApp1\bin\Release\XIM Sensitivity Finder for DPI.exe.config
+C:\Code\VS .NET Projects (C#, C++)\XIM Sens DPI Converter\XIMSensDPIConverter\WindowsFormsApp1\bin\Release\XIM Sensitivity Finder for DPI.exe
+C:\Code\VS .NET Projects (C#, C++)\XIM Sens DPI Converter\XIMSensDPIConverter\WindowsFormsApp1\bin\Release\XIM Sensitivity Finder for DPI.pdb
+C:\Code\VS .NET Projects (C#, C++)\XIM Sens DPI Converter\XIMSensDPIConverter\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Form1.resources
+C:\Code\VS .NET Projects (C#, C++)\XIM Sens DPI Converter\XIMSensDPIConverter\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Properties.Resources.resources
+C:\Code\VS .NET Projects (C#, C++)\XIM Sens DPI Converter\XIMSensDPIConverter\WindowsFormsApp1\obj\Release\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Code\VS .NET Projects (C#, C++)\XIM Sens DPI Converter\XIMSensDPIConverter\WindowsFormsApp1\obj\Release\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Code\VS .NET Projects (C#, C++)\XIM Sens DPI Converter\XIMSensDPIConverter\WindowsFormsApp1\obj\Release\XIM Sensitivity Finder for DPI.exe
+C:\Code\VS .NET Projects (C#, C++)\XIM Sens DPI Converter\XIMSensDPIConverter\WindowsFormsApp1\obj\Release\XIM Sensitivity Finder for DPI.pdb
+C:\code\VS .NET Projects (C#, C++)\XIM Sens DPI Converter - GitHub SVN Connected exmaple\XIMSensDPIConverter\WindowsFormsApp1\bin\Release\XIM Sensitivity Finder for DPI.exe.config
+C:\code\VS .NET Projects (C#, C++)\XIM Sens DPI Converter - GitHub SVN Connected exmaple\XIMSensDPIConverter\WindowsFormsApp1\bin\Release\XIM Sensitivity Finder for DPI.exe
+C:\code\VS .NET Projects (C#, C++)\XIM Sens DPI Converter - GitHub SVN Connected exmaple\XIMSensDPIConverter\WindowsFormsApp1\bin\Release\XIM Sensitivity Finder for DPI.pdb
+C:\code\VS .NET Projects (C#, C++)\XIM Sens DPI Converter - GitHub SVN Connected exmaple\XIMSensDPIConverter\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Form1.resources
+C:\code\VS .NET Projects (C#, C++)\XIM Sens DPI Converter - GitHub SVN Connected exmaple\XIMSensDPIConverter\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Properties.Resources.resources
+C:\code\VS .NET Projects (C#, C++)\XIM Sens DPI Converter - GitHub SVN Connected exmaple\XIMSensDPIConverter\WindowsFormsApp1\obj\Release\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\code\VS .NET Projects (C#, C++)\XIM Sens DPI Converter - GitHub SVN Connected exmaple\XIMSensDPIConverter\WindowsFormsApp1\obj\Release\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\code\VS .NET Projects (C#, C++)\XIM Sens DPI Converter - GitHub SVN Connected exmaple\XIMSensDPIConverter\WindowsFormsApp1\obj\Release\XIM Sensitivity Finder for DPI.exe
+C:\code\VS .NET Projects (C#, C++)\XIM Sens DPI Converter - GitHub SVN Connected exmaple\XIMSensDPIConverter\WindowsFormsApp1\obj\Release\XIM Sensitivity Finder for DPI.pdb
